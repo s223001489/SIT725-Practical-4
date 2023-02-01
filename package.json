@@ -1,0 +1,26 @@
+{
+  "name": "sit725-practical-2",
+  "version": "1.0.0",
+  "description": "SIT725 Practicals",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s223001489/SIT725-Practical-2.git"
+  },
+  "keywords": [
+    "Express",
+    "Node"
+  ],
+  "author": "Varshini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s223001489/SIT725-Practical-2/issues"
+  },
+  "homepage": "https://github.com/s223001489/SIT725-Practical-2#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
