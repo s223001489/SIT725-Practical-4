@@ -1,5 +1,5 @@
 {
-  "name": "sit725-practical-2",
+  "name": "sit725-practical-3",
   "version": "1.0.0",
   "description": "SIT725 Practicals",
   "main": "server.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/s223001489/SIT725-Practical-2.git"
+    "url": "git+https://github.com/s223001489/SIT725-Practical-3.git"
   },
   "keywords": [
     "Express",
@@ -17,9 +17,9 @@
   "author": "Varshini",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/s223001489/SIT725-Practical-2/issues"
+    "url": "https://github.com/s223001489/SIT725-Practical-3/issues"
   },
-  "homepage": "https://github.com/s223001489/SIT725-Practical-2#readme",
+  "homepage": "https://github.com/s223001489/SIT725-Practical-3#readme",
   "dependencies": {
     "express": "^4.18.2"
   }
