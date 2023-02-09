@@ -10,8 +10,8 @@ app.use(cors())
 
 //mongodb connection
 const MongoClient = require('mongodb').MongoClient; 
-const uri = 'mongodb+srv://varshini:varsh@cluster0.vlpwl1l.mongodb.net/?retryWrites=true&w=majority'
-const client = new MongoClient(uri, {useNewUrlParser: true})
+const url = 'mongodb+srv://varshini:varsh@cluster0.vlpwl1l.mongodb.net/?retryWrites=true&w=majority'
+const client = new MongoClient(url, {useNewUrlParser: true})
 
 
 const createCollection = (collectionName) => {
@@ -76,7 +76,7 @@ app.get('/api/projects',(req,res) => {
   })
 })
 
-var port = process.env.port || 8080;
+var port = process.env.port || 3000;
 app.listen(port,()=>{
     createCollection("Techs");
     console.log("App listening to: "+port);
